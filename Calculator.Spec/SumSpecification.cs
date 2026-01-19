@@ -9,7 +9,7 @@ public class SumSpecification
         var a = 2;
         var b = 2;
         var expectedResult = 4;
-        var calculator = new Calculator();
+        var calculator = new Utilities.Calculator();
 
         // Act
         var result = calculator.Sum(a, b);
