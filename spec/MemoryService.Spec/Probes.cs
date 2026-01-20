@@ -13,7 +13,7 @@ public class HealthProbe
     }
 
     [Fact]
-    public async Task What_To_Test_First()
+    public async Task AsAClient_WhenIQuerryTheHealthEndpoint_ItsASuccess()
     {
         // As a client
         var client = _factory.CreateClient();
