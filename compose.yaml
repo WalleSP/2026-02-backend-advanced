@@ -1,11 +1,15 @@
 services:
   landing-page:
-    image: landing-page
+    build:
+      context: ./src/landing-page
+      dockerfile: Dockerfile
     ports:
       - "3000:80"
 
   my-service:
-    image: testing
+    build:
+      context: .
+      dockerfile: Dockerfile
     ports:
       - "8081:8080"
 
