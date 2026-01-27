@@ -2,6 +2,10 @@
 
 ![Backend Advanced Oversikt](/docs/backend-advanced-oversikt.excalidraw.png)
 
+## System Arkitektur
+
+![Løsnings Arkitektur](/docs/2026-01-27-service-composition.excalidraw.png)
+
 ## Problemstilling
 
 Vi trenger en API Tjeneste some kan lagre minner.
