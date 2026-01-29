@@ -6,7 +6,7 @@ on:
       - main
     paths:
       - 'src/**'
-      - '.github/workflows/publish-oci-manifests.yml'
+      - '.github/workflows/publish-oci-manifests.yaml'
   workflow_dispatch:
 
 concurrency:
